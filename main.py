@@ -277,7 +277,7 @@ if __name__ == '__main__':
     code_url = "https://zlapp.fudan.edu.cn/backend/default/code"
     delay = randint(1,5)
     print("Sleep " + str(delay) + "s")
-    time.sleep(delay*10000)
+    time.sleep(delay)
     daily_fudan = Zlapp(uid, psw,
                         url_login=zlapp_login, url_code=code_url)
     daily_fudan.login()
